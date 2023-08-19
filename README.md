@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Minha Jornada de Estudos em Java 📚</h1>
 
 <p align="center">
-  <img src="path/to/your/image.png" alt="Java Logo" width="200">
+  <img src="https://static.vecteezy.com/system/resources/previews/022/101/050/original/java-logo-transparent-free-png.png" alt="Java Logo" width="100">
 </p>
 
 <div align="center">
