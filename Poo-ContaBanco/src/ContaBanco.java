@@ -27,9 +27,9 @@ public class ContaBanco {
     public void abrirConta(String t) {
         this.setTipoDeConta(t);
         this.setStatusDaConta(true);
-        if (t == "CC") {
+        if (t.equals("CC")) {
             this.setSaldo(50);
-        } else if (t == "CP"){
+        } else if (t.equals("CP")){
             this.setSaldo(150);
         }
     }
@@ -50,6 +50,7 @@ public class ContaBanco {
     }
     public void depositar() {
         if (this.isStatusDaConta() == true) {
+            System.out.println("Valor do deposito? ");
             double valorDepositado = leitura.nextDouble();
             this.setSaldo(getSaldo() + valorDepositado);
             System.out.println("Saldo atualizado! Saldo: "+ this.getSaldo());
@@ -128,4 +129,6 @@ public class ContaBanco {
     public void setStatusDaConta(boolean statusDaConta) {
         this.statusDaConta = statusDaConta;
     }
+
+    
 }
