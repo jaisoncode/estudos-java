@@ -1,18 +1,20 @@
-## Getting Started
+# Classe ContaBanco em Java 🏦
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A classe `ContaBanco` é uma implementação em Java que modela uma conta bancária simples. Essa classe permite simular operações comuns realizadas em contas bancárias, como abertura de conta, fechamento de conta, depósito, saque e pagamento mensal.
 
-## Folder Structure
+## Principais Funcionalidades 🌟
 
-The workspace contains two folders by default, where:
+- Abertura de contas do tipo "CC" (Conta Corrente) e "CP" (Conta Poupança) com valores de saldo iniciais específicos.
+- Verificação do estado da conta, incluindo informações como nome do cliente, número da conta, tipo de conta, saldo e status da conta.
+- Realização de depósitos e atualização do saldo.
+- Realização de saques, com verificação de saldo suficiente antes da operação.
+- Pagamento mensal automático com base no tipo de conta, com desconto na tarifa da conta corrente ("CC") ou conta poupança ("CP").
+- Fechamento de conta, levando em consideração o saldo e o status da conta.
+- Utilização de formatação de saída para apresentação clara e organizada dos detalhes da conta.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Usar 🚀
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Instancie a classe `ContaBanco` para criar uma nova conta bancária.
+2. Utilize os métodos disponíveis para realizar operações como abertura, fechamento, depósito, saque e pagamento mensal.
+3. Chame o método `estadoDaConta()` para verificar o estado atual da conta.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
