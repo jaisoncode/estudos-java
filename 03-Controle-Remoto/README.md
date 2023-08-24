@@ -1,18 +1,44 @@
-## Getting Started
+# Controle Remoto Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém um exemplo de implementação de um controle remoto em Java, que utiliza o conceito de encapsulamento para controlar várias funcionalidades, como ajuste de volume, ligar/desligar e controle de reprodução.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+Este projeto visa demonstrar a aplicação do encapsulamento em programação orientada a objetos através da implementação da classe `ControleRemoto`. Essa classe simula um controle remoto com funcionalidades típicas encontradas em aparelhos eletrônicos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Ligar e desligar o controle remoto
+- Ajustar o volume, aumentando ou diminuindo
+- Ativar e desativar a reprodução
+- Modo mudo (volume zero)
+- Exibir informações no menu
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Uso
 
-## Dependency Management
+Aqui estão algumas das principais operações que podem ser realizadas com a classe `ControleRemoto`:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```java
+// Criar uma instância do controle remoto
+ControleRemoto controle = new ControleRemoto();
+
+// Ligar o controle remoto
+controle.ligar();
+
+// Aumentar o volume
+controle.maisVolume();
+
+// Iniciar a reprodução
+controle.play();
+
+// Exibir informações no menu
+controle.abrirMenu();
+
+// Diminuir o volume
+controle.menosVolume();
+
+// Pausar a reprodução
+controle.pause();
+
+// Desligar o controle remoto
+controle.desligar();
