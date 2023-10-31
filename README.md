@@ -50,6 +50,6 @@ Se você achou este repositório útil ou interessante, considere deixar uma ⭐
 ---
 
 <p align="center">
-  <sub>Feito de ❤️ por [Jaison Code]</sub>
+  <sub>Feito de ❤️ por <strong>Jaison</strong></sub>
 </p>
 
